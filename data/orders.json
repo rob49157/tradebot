@@ -1,0 +1,42 @@
+[
+    {
+        "order_id": "AAPL_long_enter_1636567291.637241",
+        "request_body": {
+            "orderStrategyType": "SINGLE",
+            "orderType": "MARKET",
+            "session": "NORMAL",
+            "duration": "DAY",
+            "orderLegCollection": [
+                {
+                    "instruction": "BUY",
+                    "quantity": 1,
+                    "instrument": {
+                        "symbol": "AAPL",
+                        "assetType": "EQUITY"
+                    }
+                }
+            ]
+        },
+        "timestamp": "2021-11-10T13:01:31.637241"
+    },
+    {
+        "order_id": "AAPL_long_exit_1636567620.986989",
+        "request_body": {
+            "orderStrategyType": "SINGLE",
+            "orderType": "MARKET",
+            "session": "NORMAL",
+            "duration": "DAY",
+            "orderLegCollection": [
+                {
+                    "instruction": "SELL",
+                    "quantity": 1,
+                    "instrument": {
+                        "symbol": "AAPL",
+                        "assetType": "EQUITY"
+                    }
+                }
+            ]
+        },
+        "timestamp": "2021-11-10T13:07:00.986989"
+    }
+]
